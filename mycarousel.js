@@ -57,4 +57,5 @@
       '</div>'
     )
   })
+  $('.trusted-logo span').empty();
 })(jQuery); 
