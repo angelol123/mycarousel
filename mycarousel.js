@@ -1,5 +1,14 @@
+(function ($) {
+  $(document).ready(function () {
+    $(".owl-carousel").owlCarousel({
+      center: true,
+      autoWidth: true,
+      nav: true,
+      loop: true,
+      margin: 20,
 
-$(document).ready(function () {
+    });
+  });
   const data = [
     {
       "name": "Lorenzo",
@@ -48,15 +57,4 @@ $(document).ready(function () {
       '</div>'
     )
   })
-
-  $(".owl-carousel").owlCarousel({
-    center: true,
-    autoWidth: true,
-    nav: true,
-    loop: true,
-    margin: 20,
-
-  });
-});
-
-
+})(jQuery); 
